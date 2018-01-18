@@ -1,33 +1,28 @@
 instructor: 
   name: Matthew Turk
   email: mjturk@illinois.edu
-  office: 106 Astronomy
-  office_hours: By appointment
+  office: 222 LIS Building
+  office_hours: Friday 2-4PM
 tas:
   -
-    name: Name1
-    email: Email1
-    office: ZZZ
-    office_hours: XYZ
-  -
-    name: Name2
-    email: email2
-    office: Office2
-    office_hours: OfficeHours2
+    name: Jarai Carter
+    email: carter31@illinois.edu
+    office: TBA
+    office_hours: TBA
 course:
-  name: COURSENAME
-  number: COURSENUM
-  semester: SEMESTER, YEAR
-  location: LOCATION
-  time: DAYTIME
-  credit_hours: Z
+  name: Data Visualization
+  number: LIS590DV
+  semester: Spring 2018
+  location: 328 Bevier Hall
+  time: Monday, 12PM-2:50PM
+  credit_hours: 4
 urls:
   -
     name: Jupyterhub
-    url: https://example.com/
+    url: https://jupyterhub.ischool.illinois.edu/
   -
     name: Slack
-    url: https://example.com/
+    url: https://lis590dv-spr2018.slack.com/
   - 
     name: Moodle
-    url: https://example.com/
+    url: https://courses.ischool.illinois.edu/course/view.php?id=3299

@@ -5,7 +5,14 @@ title: Syllabus
 
 # Course Description
 
-Short course description here.
+Data visualization is crucial to conveying information drawn from models,
+observations or investigations. This course will provide an overview of
+historical and modern techniques for visualizing data, drawing on
+quantitative, statistical, and network-focused datasets. Topics will include
+construction of communicative visualizations, the modern software ecosystem
+of visualization, and techniques for aggregation and interpretation of data
+through visualization.Particular attention will be paid to the Python
+ecosystem and multi-dimensional quantitative datasets. 
 
 ## Course Overview
 
@@ -25,12 +32,12 @@ wrap-up session at the end.
 
 Students are expected to have laptops with them, as well as access to Python
 installations, and will be encouraged to participate in class.  Homework will
-be assigned and collected utilizing GitHub Classroom in the form of Jupyter
-notebooks.
+be assigned and collected utilizing the Jupyter nbgrader extension or through
+other methods specified at time of submission.
 
 ## Pre- and Co-requisites
 
-None, although Python programming experience is assumed.
+None, although basic Python programming experience is assumed.
 
 # Course Overview
 
@@ -44,20 +51,23 @@ The central themes of the course are:
 # Course Materials
 
 There is no textbook for this course.  All course materials will be posted to
-the GitHub repository at https://github.com/UIUC-iSchool-DataViz/spring2017 .
+the GitHub repository at https://github.com/UIUC-iSchool-DataViz/spring2018 .
 
 As the course progresses, a list of recommended readings will be generated for
 each class.  These will be included in the course materials repository, and
 students are encouraged to fork that repository and issue pull requests to add
 suggested readings.
 
-# About your instructor
+Existing readings that may help are available in the file
+[readings.md](readings.md).
+
+# About Your Instructor
 
 Matthew Turk is an Assistant Professor at the School of Information Sciences.
 His training was in Astronomy, where he conducted simulations of the formation
 of the first stars in the Universe.  This led him to work on developing
 an analysis and visualization package for volumetric data, 
-[yt](http://yt-project.org/), which has been used for quantiative and
+[yt](http://yt-project.org/), which has been used for quantitative and
 qualitative visualization of data from several disciplines.
 
 # Library Resources
@@ -199,28 +209,22 @@ course outline below is subject to some flexibilty; students will be encouraged
 to provide feedback on the topics covered, particularly toward the end.  Topics
 that are of particular interest will be emphasized.
 
- * Week 1 (Jan 20): Introduction, syllabus, and examples of visualization.
-   Installation of packages and introduction to python and matplotlib.
-   (Coding assignment) 
- * Week 2 (Jan 27): Simple plotting: quantitative plots, breakdown of plot
-   components.  (Prose assignment)
- * Week 2 (Feb 3): Binning, filtering, smoothing, and multiplots. (No
-   assignment).
- * Week 4 (Feb 10): Histograms, binning, and distributions.  (Coding
-   assignment)
- * Week 5 (Feb 17): Images: color theory, colormaps, generating visualizations
-   of images and image-like quantities. (Prose assignment)
- * Week 6 (Feb 23): Quantitative and time series (Coding assignment)
- * Week 7 (Mar 2): Geospatial visualizations
- * Week 8 (Mar 10): Synthesizing multiple datasets
- * Week 9 (Mar 17): Software ecosystem around visualization
- * Week 10 (Mar 31): Network visualization
- * Week 11 (Apr 7): Statistical visualization
- * Week 12 (Apr 14): Interactive visualizations
- * Week 13 (Apr 21): Advanced topics
- * Week 14 (Apr 27): Group presentations
+ * Week 1 (Jan 22): Introduction, syllabus, examples, and some basics
+ * Week 2 (Jan 29): Operational palette, structured python, and files
+ * Week 3 (Feb 5): Quantitative plots, plot components
+ * Week 4 (Feb 12): Histograms and distributions
+ * Week 5 (Feb 19): R and ggplot
+ * Week 6 (Feb 26): Images: color, colormaps
+ * Week 7 (Mar 5): Comparisons between datasets
+ * Week 8 (Mar 12): Comparisons between different datasets
+ * Week 9 (Mar 26): Network visualization
+ * Week 10 (Apr 2): Principles of interactive visualization
+ * Week 11 (Apr 9): Interactive visualization with Python
+ * Week 12 (Apr 16): Scientific visualization
+ * Week 13 (Apr 23): Advanced topics
+ * Week 14 (Apr 30): Group presentations
 
-## Emergency response: Run, Hide, Fight
+## Emergency Response: Run, Hide, Fight
 
 Emergencies can happen anywhere and at any time. It is important that
 we take a minute to prepare for a situation in which our safety or
