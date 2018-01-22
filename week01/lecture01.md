@@ -350,6 +350,12 @@ Our choices must be:
 
 ---
 
+## Election Maps
+
+Mark Newman of the University of Michigan has created visualizations of the
+election maps from several of the most recent elections.  For more information
+and context, see his page http://www-personal.umich.edu/~mejn/election/2008/ .
+
  * [Map 1](http://www-personal.umich.edu/~mejn/election/2008/statemapredbluer1024.png)
  * [Map 2](http://www-personal.umich.edu/~mejn/election/2008/statepopredblue1024.png)
  * [Map 3](http://www-personal.umich.edu/~mejn/election/2008/countymapredbluer1024.png)
