@@ -39,6 +39,11 @@ Affix to or inscribe upon your sheet of paper.
 
 ---
 
+ * goo.gl/5nHcDM
+ * goo.gl/RPDr3K
+
+---
+
 ## Syllabus
 
  * Week 1 (Jan 22): Introduction, syllabus, examples, and some basics
