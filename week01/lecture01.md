@@ -2,12 +2,15 @@
 title: Lecture 1
 layout: lecture
 ---
-# Data Visualization<!-- .element: class="centered" -->
-## Matthew Turk<!-- .element: class="centered" -->
-## Spring 2018<!-- .element: class="centered" -->
+<!-- .slide: class="titleslide" -->
+
+# Data Visualization
+<div style="height: 6.0em;"></div>
+## Matthew Turk
+## Spring 2018
 
 ---
-
+<!-- .slide: class="vertical_center" -->
 ## Basics
 
 12PM-2:50PM Mondays, 328 Bevier Hall
