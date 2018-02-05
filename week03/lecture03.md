@@ -14,134 +14,11 @@ layout: lecture
 
 ## Today's Topics
 
+ * How does drawing work?
  * Operational Palette: Mutations
    * Histograms and aggregations
    * Splitting
  * Elements of a visualization
-
----
-
-## Mutation Operations
-
- * Mathematical operations, such as injective operations.
-   * Logarithmic versus linear representations
-   *  Arithmetic or multiplicative relationships
-   *  Manifold remapping
- * Smoothing (reduction; not injective)
- * Histograms (reduction; not injective)
-
----
-
-## Binning and Histograms
-
-<!-- .slide: data-background-image="diagrams/circles.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
-
-<div style="width: 50%">
-We can aggregate data points according to their position along defined
-dimensions.
-</div>
-
----
-
-## Binning and Histograms
-
-<!-- .slide: data-background-image="diagrams/circles_grid.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
-
-<div style="width: 50%">
-We can aggregate data points according to their position along defined
-dimensions.
-</div>
-
-
----
-
-## Binning and Histograms
-
-<!-- .slide: data-background-image="diagrams/circles_grid_filled.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
-
-* $\Sigma 1$ (count)
-* $\Sigma v_i$ (sum)
-* $\frac{\Sigma v_i }{ \Sigma 1}$ (average)
-* $\frac{\Sigma v_i w_i}{\Sigma w_i}$ (weighted average)
-
----
-
-## Splitting Operations
-
-We can split or group collections of data based on some characteristic.
-
-<!-- .slide: data-background-image="diagrams/split.svg" data-background-size="65% auto" data-background-position="top 5.0em center"-->
-
----
-
-## Splitting Operations
-
-We can split or group collections of data based on some characteristic.
-
-<!-- .slide: data-background-image="diagrams/split_finished.svg" data-background-size="65% auto" data-background-position="top 5.0em center"-->
-
-
----
-
-## Python Basics
-
-A review, from last week:
-
- * Variables
-   * Strings, numbers, mutability
-   * Assignments and comparisons
- * Data Structures
-   * Lists
-   * Dictionaries
- * Flow control
-   * for / while
-   * if / elif / else
-   * functions
- * Packages
-   * `matplotlib`
-   * `numpy`
-   * `pandas`
-
----
-
-## Variables
-
-```python
-my_name = "Matt"
-
-n_students = 7
-n_students += 1
-
-n_students_orig = n_students
-n_students += 3
-```
-
----
-
-## Data Structures
-
-```
-c = []
-c.append(2)
-c.append('hi there')
-
-d = {}
-d[1] = 'b'
-d['hello'] = 10
-```
-
----
-
-## Flow Control
-
-```python
-for obj in [1, 2, 3]:
-    print(obj)
-
-a = []
-while len(a) < 5:
-  a.append(input("Hello!"))
-```
 
 ---
 
@@ -317,3 +194,128 @@ radius = 1.0
 (uncompressed, single precision)
 
 ---
+
+## Mutation Operations
+
+ * Mathematical operations, such as injective operations.
+   * Logarithmic versus linear representations
+   *  Arithmetic or multiplicative relationships
+   *  Manifold remapping
+ * Smoothing (reduction; not injective)
+ * Histograms (reduction; not injective)
+
+---
+
+## Binning and Histograms
+
+<!-- .slide: data-background-image="diagrams/circles.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+
+<div style="width: 50%">
+We can aggregate data points according to their position along defined
+dimensions.
+</div>
+
+---
+
+## Binning and Histograms
+
+<!-- .slide: data-background-image="diagrams/circles_grid.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+
+<div style="width: 50%">
+We can aggregate data points according to their position along defined
+dimensions.
+</div>
+
+
+---
+
+## Binning and Histograms
+
+<!-- .slide: data-background-image="diagrams/circles_grid_filled.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+
+* $\Sigma 1$ (count)
+* $\Sigma v_i$ (sum)
+* $\frac{\Sigma v_i }{ \Sigma 1}$ (average)
+* $\frac{\Sigma v_i w_i}{\Sigma w_i}$ (weighted average)
+
+---
+
+## Splitting Operations
+
+We can split or group collections of data based on some characteristic.
+
+<!-- .slide: data-background-image="diagrams/split.svg" data-background-size="65% auto" data-background-position="top 5.0em center"-->
+
+---
+
+## Splitting Operations
+
+We can split or group collections of data based on some characteristic.
+
+<!-- .slide: data-background-image="diagrams/split_finished.svg" data-background-size="65% auto" data-background-position="top 5.0em center"-->
+
+
+---
+
+## Python Basics
+
+A review, from last week:
+
+ * Variables
+   * Strings, numbers, mutability
+   * Assignments and comparisons
+ * Data Structures
+   * Lists
+   * Dictionaries
+ * Flow control
+   * for / while
+   * if / elif / else
+   * functions
+ * Packages
+   * `matplotlib`
+   * `numpy`
+   * `pandas`
+
+---
+
+## Variables
+
+```python
+my_name = "Matt"
+
+n_students = 7
+n_students += 1
+
+n_students_orig = n_students
+n_students += 3
+```
+
+---
+
+## Data Structures
+
+```
+c = []
+c.append(2)
+c.append('hi there')
+
+d = {}
+d[1] = 'b'
+d['hello'] = 10
+```
+
+---
+
+## Flow Control
+
+```python
+for obj in [1, 2, 3]:
+    print(obj)
+
+a = []
+while len(a) < 5:
+  a.append(input("Hello!"))
+```
+
+---
+
