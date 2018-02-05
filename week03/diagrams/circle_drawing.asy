@@ -28,7 +28,7 @@ void draw_circles() {
 }
 
 draw_grid(og, cs, black+linewidth(2.0), empty_paths, black);
-filldraw( shift(4.0, 4.0) * scale(2.0) * p, mediumgray);
+filldraw( shift(4.0, -4.0) * scale(2.0) * p, mediumgray);
 shipout("single_circle.svg");
 
 erase();
