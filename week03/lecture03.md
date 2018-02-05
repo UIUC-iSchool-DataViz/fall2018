@@ -8,7 +8,7 @@ layout: lecture
 <div style="height: 6.0em;"></div>
 ## Matthew Turk
 ## Spring 2018
-## Lecture 2
+## Lecture 3
 
 ---
 
