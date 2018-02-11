@@ -36,13 +36,13 @@ allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Let's draw a line.
 
-<!-- .slide: data-background-image="diagrams/line.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/line.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 ---
 
 ## Let's draw a line.
 
-<!-- .slide: data-background-image="diagrams/line.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/line.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 ```
 start = (x0, y0)
@@ -55,37 +55,37 @@ width = 1.0
 
 ## Let's draw a line.
 
-<!-- .slide: data-background-image="diagrams/line_grid.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/line_grid.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 ---
 
 ## Let's draw a line.
 
-<!-- .slide: data-background-image="diagrams/line_grid_fill.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/line_grid_fill.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 ---
 
 ## Let's draw a line.
 
-<!-- .slide: data-background-image="diagrams/line_grid_fine2.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/line_grid_fine2.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 ---
 
 ## Let's draw a line.
 
-<!-- .slide: data-background-image="diagrams/line_grid_fine2_fill.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/line_grid_fine2_fill.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 ---
 
 ## Let's draw a line.
 
-<!-- .slide: data-background-image="diagrams/line_grid_fine4.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/line_grid_fine4.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 ---
 
 ## Let's draw a line.
 
-<!-- .slide: data-background-image="diagrams/line_grid_fine4_fill.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/line_grid_fine4_fill.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 ---
 
@@ -117,7 +117,7 @@ width = 1.0
 
 ## Let's draw a circle.
 
-<!-- .slide: data-background-image="diagrams/single_circle.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/single_circle.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 ```
 center = (x0, y0)
@@ -129,43 +129,43 @@ radius = 1.0
 
 ## Let's draw many circles.
 
-<!-- .slide: data-background-image="diagrams/dots.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/dots.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 ---
 
 ## Let's draw many circles.
 
-<!-- .slide: data-background-image="diagrams/dots_grid.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/dots_grid.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 ---
 
 ## Let's draw many circles.
 
-<!-- .slide: data-background-image="diagrams/dots_grid_fill.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/dots_grid_fill.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 ---
 
 ## Let's draw many circles.
 
-<!-- .slide: data-background-image="diagrams/dots_grid_fine2.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/dots_grid_fine2.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 ---
 
 ## Let's draw many circles.
 
-<!-- .slide: data-background-image="diagrams/dots_grid_fine2_fill.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/dots_grid_fine2_fill.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 ---
 
 ## Let's draw many circles.
 
-<!-- .slide: data-background-image="diagrams/dots_grid_fine4.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/dots_grid_fine4.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 ---
 
 ## Let's draw many circles.
 
-<!-- .slide: data-background-image="diagrams/dots_grid_fine4_fill.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/dots_grid_fine4_fill.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 ---
 
@@ -208,7 +208,7 @@ radius = 1.0
 
 ## Binning and Histograms
 
-<!-- .slide: data-background-image="diagrams/circles.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/circles.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 <div style="width: 50%">
 We can aggregate data points according to their position along defined
@@ -219,7 +219,7 @@ dimensions.
 
 ## Binning and Histograms
 
-<!-- .slide: data-background-image="diagrams/circles_grid.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/circles_grid.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 <div style="width: 50%">
 We can aggregate data points according to their position along defined
@@ -231,7 +231,7 @@ dimensions.
 
 ## Binning and Histograms
 
-<!-- .slide: data-background-image="diagrams/circles_grid_filled.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+<!-- .slide: data-background-image="images/circles_grid_filled.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
 
 * $\Sigma 1$ (count)
 * $\Sigma v_i$ (sum)
@@ -244,7 +244,7 @@ dimensions.
 
 We can split or group collections of data based on some characteristic.
 
-<!-- .slide: data-background-image="diagrams/split.svg" data-background-size="65% auto" data-background-position="top 5.0em center"-->
+<!-- .slide: data-background-image="images/split.svg" data-background-size="65% auto" data-background-position="top 5.0em center"-->
 
 ---
 
@@ -252,7 +252,7 @@ We can split or group collections of data based on some characteristic.
 
 We can split or group collections of data based on some characteristic.
 
-<!-- .slide: data-background-image="diagrams/split_finished.svg" data-background-size="65% auto" data-background-position="top 5.0em center"-->
+<!-- .slide: data-background-image="images/split_finished.svg" data-background-size="65% auto" data-background-position="top 5.0em center"-->
 
 
 ---
