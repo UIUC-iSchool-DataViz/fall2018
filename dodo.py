@@ -19,10 +19,16 @@ def get_shipouts(fn):
 def task_build_asy():
     asy_files = sorted(glob.glob("week*/diagrams/*.asy"))
     for fn in asy_files:
-        cd = os.path.dirname(fn)
+        cd = os.path.normpath(
+                os.path.join(
+                    os.path.dirname(fn),
+                    "..", "images"))
+        os.makedirs(cd, exist_ok = True)
         yield {'basename': 'make_asy',
                 'name': fn,
                 'targets': [os.path.join(cd, _) for _ in get_shipouts(fn)],
                 'file_dep': [fn],
-                'actions': ['asy -cd %s %s' % (cd, os.path.basename(fn))] }
+                'actions': ['asy -cd %s %s' % (cd, 
+                    os.path.join("..", "diagrams", os.path.basename(fn)))]
+                }
 
