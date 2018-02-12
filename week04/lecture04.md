@@ -34,10 +34,10 @@ https://www.axios.com/vitals-2486505861.html
 When we are examining data, what can we look for?
 
  * Does this data describe a **geometric** object?
- * Is there a **quantity** associated with the data?
  * Are the data points **connected** to each other?
  * Can we describe data points with a fixed set of **categories**?
- * Are the datapoints ordered along one or more **dimensions**?
+ * Is there a **quantity** associated with the data?
+ * Are the datapoints **continuous** along one or more dimensions?
 
 ---
 
@@ -164,9 +164,29 @@ http://adsabs.harvard.edu/abs/2013ApJ...763...38S
 
 ---
 
+## Continuous Data
+
+Data organized in a continuous fashion along one or more dimensions can enable
+additional operations.
+
+<!-- .slide: data-background-image="images/cube.png" data-background-size="auto 50%" data-background-position="right 20% bottom 50%"-->
+
+---
+
+## Continuous Data
+
+Data organized in a continuous fashion along one or more dimensions can enable
+additional operations.
+
+<!-- .slide: data-background-image="images/cube_z_slice.png" data-background-size="auto 50%" data-background-position="right 20% bottom 50%"-->
+
+
+---
+
 ## Distributions
 
-Given a point or set of points, how do we aggregate?
+Given a point or set of points, how do we make them into a "continuous"
+distribution?
 
 <!-- .slide: data-background-image="images/binning_1.svg" data-background-size="75% auto" -->
 
@@ -174,7 +194,8 @@ Given a point or set of points, how do we aggregate?
 
 ## Distributions
 
-Given a point or set of points, how do we aggregate?
+Given a point or set of points, how do we make them into a "continuous"
+distribution?
 
 <!-- .slide: data-background-image="images/binning_2.svg" data-background-size="75% auto" -->
 
@@ -182,7 +203,8 @@ Given a point or set of points, how do we aggregate?
 
 ## Distributions
 
-Given a point or set of points, how do we aggregate?
+Given a point or set of points, how do we make them into a "continuous"
+distribution?
 
 Uniform-width bins allow us to compute:
 
@@ -236,3 +258,5 @@ Useful for describing mean, but not strict arithmetic mean.
   seen?
 * What's the mean age of a voter, as a function of the total years of
   experience in the election?
+
+---
