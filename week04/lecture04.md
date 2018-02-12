@@ -212,6 +212,16 @@ Uniform-width bins allow us to compute:
 bin_id = floor( (value - left_edge ) / bin_width)
 ```
 
+<!-- .slide: data-background-image="images/binning_2.svg" data-background-size="75% auto" -->
+
+---
+## Distributions
+
+Given a point or set of points, how do we make them into a "continuous"
+distribution?
+
+Non-uniform bins require searching.
+
 <!-- .slide: data-background-image="images/binning_3.svg" data-background-size="75% auto" -->
 
 ---
