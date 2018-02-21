@@ -125,13 +125,13 @@ http://enchroma.com/test/instructions/
 
 ## Color Matching Function
 
-<!-- .slide: data-background-image="images/cmf.png" data-background-size="100% auto" -->
+<!-- .slide: data-background-image="images/cmf.png" data-background-size="auto 75%" -->
 
 ---
 
 ## Responsivity Function
 
-<!-- .slide: data-background-image="images/resp.png" data-background-size="100% auto" -->
+<!-- .slide: data-background-image="images/resp.png" data-background-size="auto 75%" -->
 
 ---
 
@@ -204,6 +204,7 @@ $f(v) \rightarrow (R, G, B)$
 We can also re-map:
 
 $f(v') \rightarrow (R, G, B)$
+
 $v' = f(v)$
 
 For instance, with logs or squares.
