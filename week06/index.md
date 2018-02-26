@@ -2,5 +2,5 @@
 layout: week
 ---
 
-# Week 5 - Types of Viz and Choosing Colors
+# Week 6 - Comparisons, Elements, and More
 

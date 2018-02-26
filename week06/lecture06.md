@@ -102,10 +102,13 @@ Don't use a pie chart.
 
 Today we are going to build comparisons with our (virtual) hands.
 
- * Load a CSV file in the fast way
- * Make sure the dates are correctly read in
- * Aggregate by a characteristic
- * Learn about "projections" in matplotlib
- * Make a polar projection
+ * A Bit More Pandas
+   * Load a CSV file in the fast way
+   * Make sure the dates are correctly read in
+   * Aggregate by a characteristic
+ * A Bit More Matplotlib
+   * Patches and elements
+   * "Projections"
+   * Polar projections
  * Build a sunburst
  * Brainstorm and implement other cyclical visualizations
