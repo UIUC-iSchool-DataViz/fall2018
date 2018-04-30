@@ -28,21 +28,35 @@ You are in random order!
 
 ---
 
+## Presentation: SSSL
+
+---
+
+
+## Presentation: Austin
+
+---
+
+
+## Presentation: Mongooses
+
+---
+
+
+## Presentation: MeowMeowMeow
+
+---
+
+
+## Presentation: Pikachu
+
+---
+
+
 ## Presentation: Shujonixi
 
 ---
 
-## Presentation: X-Millennials
-
----
-
-## Presentation: VizMaster
-
----
-
-## Presentation: SSSL
-
----
 
 ## Presentation: Group 1
 
@@ -50,20 +64,27 @@ You are in random order!
  * https://jesseddeng.github.io/2018/04/29/data-visualization/
  * [nbviewer](http://nbviewer.jupyter.org/github/kcwells2/dataviz/blob/master/DVS%20P2%20-%20Group%201%20%282%29-Copy1%20%281%29.ipynb)
 
+
 ---
+
+
+## Presentation: X-Millennials
+
+---
+
 
 ## Presentation: Three Percent
 
 ---
 
-## Presentation: Austin
+
+## Presentation: Data Wizards
 
 ---
 
-## Presentation: Mongooses
+
+## Presentation: VizMaster
 
 ---
 
-## Presentation: MeowMeowMeow
 
----
