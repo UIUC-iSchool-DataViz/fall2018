@@ -34,6 +34,9 @@ On a piece of paper:
 * What would you guess the square footage of this building is?
 * People per row in this class.
 
+notes:
+This is our first introduction...
+
 ---
 
 Break into groups based on your numbers, and visualize the results by whatever method you choose: by hand, by computer, or otherwise.
