@@ -37,7 +37,8 @@ other methods specified at time of submission.
 
 ## Pre- and Co-requisites
 
-None, although basic Python programming experience is assumed.
+None, although basic Python programming experience is assumed.  A brief
+introduction to Python will be presented during the course.
 
 # Course Overview
 
@@ -51,7 +52,7 @@ The central themes of the course are:
 # Course Materials
 
 There is no textbook for this course.  All course materials will be posted to
-the GitHub repository at https://github.com/UIUC-iSchool-DataViz/spring2018 .
+the GitHub repository at https://github.com/UIUC-iSchool-DataViz/fall2018 .
 
 As the course progresses, a list of recommended readings will be generated for
 each class.  These will be included in the course materials repository, and

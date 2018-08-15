@@ -7,20 +7,20 @@ layout: lecture
 # Data Visualization
 <div style="height: 6.0em;"></div>
 ## Matthew Turk
-## Spring 2018
+## Fall 2018
 
 ---
 <!-- .slide: class="vertical_center" -->
 ## Basics
 
-12PM-2:50PM Mondays, 328 Bevier Hall
+10AM-12:50PM Wednesdays, 2101 Everitt Elec & Comp Engr Lab
 
 Matthew Turk - `mjturk@illinois.edu`
 Office Hours: Friday 2-4, LIS 222
 
-TA Jarai Carter - `carter31@illinois.edu`
+TA Si Chen - `sichen12@illinois.edu`
 
-https://uiuc-ischool-dataviz.github.io/spring2018/
+https://uiuc-ischool-dataviz.github.io/fall2018/
 
 ---
 

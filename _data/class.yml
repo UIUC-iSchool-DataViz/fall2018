@@ -5,16 +5,16 @@ instructor:
   office_hours: Friday 2-4PM
 tas:
   -
-    name: Jarai Carter
-    email: carter31@illinois.edu
+    name: Si Chen
+    email: sichen12@illinois.edu
     office: TBA
     office_hours: TBA
 course:
   name: Data Visualization
   number: LIS590DV
   semester: Spring 2018
-  location: 328 Bevier Hall
-  time: Monday, 12PM-2:50PM
+  location: 2101 Everitt Elec & Comp Engr Lab
+  time: Wednesday, 10AM-12:50PM
   credit_hours: 4
 urls:
   -
@@ -22,7 +22,7 @@ urls:
     url: https://jupyterhub.ischool.illinois.edu/
   -
     name: Slack
-    url: https://lis590dv-spr2018.slack.com/
+    url: https://is590dv-fall2018.slack.com/
   - 
     name: Moodle
-    url: https://courses.ischool.illinois.edu/course/view.php?id=3299
+    url: https://courses.ischool.illinois.edu/course/view.php?id=3487
