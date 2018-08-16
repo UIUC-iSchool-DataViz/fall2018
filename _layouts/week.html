@@ -9,7 +9,7 @@ layout: default
         {% for f in site.html_pages %}
         {% if f.dir contains page.dir and page.url != f.url %}
         <li>{{f.title}}: (<a href="{{f.url | relative_url}}">view</a>,
-          <a href="{{ site.github.repository_url }}/blob/{{site.branch}}/{{f.path}}">source</a>)</li>
+          <a href="{{ site.github.repository_url }}/blob/{{site.branch}}/{{f.path}}">source</a>{% if f.layout == "lecture" %}, <a href="{{f.url | relative_url}}?showNotes=false">present</a>{% endif %})</li>
         {% endif %}
         {% endfor %}
         {% assign pdfs = site.static_files | where: "extname", ".pdf" %}
