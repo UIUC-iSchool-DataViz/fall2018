@@ -31,11 +31,16 @@ On a piece of paper:
 * What are the most memorable movies you saw over the last year?
 * Do you prefer cats or dogs?
 * How would you quantify your experience in visualization?
-* What would you guess the square footage of this building is?
-* People per row in this class.
+* How many people are at each table in this classroom?
 
 notes:
-This is our first introduction...
+We're going to use these pieces of data to explore how we might approach
+visualization.  Each of these items is a different *type* of data --
+qualitative, quantitative, elements drawn from sets, and sets of numerical
+data.
+
+Trying to visualize each one will give us a basic idea of how we might think
+about these types of data, and how we approach visualizing them.
 
 ---
 
@@ -43,50 +48,107 @@ Break into groups based on your numbers, and visualize the results by whatever m
 
 Affix to or inscribe upon your sheet of paper.
 
+notes:
+Don't get used to sitting in the same seat in this room!  We're going to move
+around and try things, starting with hand-crafting some visualizations.
+
 ---
 
- * goo.gl/5nHcDM
- * goo.gl/RPDr3K
+## Intake Survey
+
+goo.gl/JPksHn
+
+notes:
+This survey will help guide the level of instruction during the course.
+Although we will be going over many of these topics, by knowing how well you
+are already acquainted with them I can guide the instruction to greater or
+lesser detail.
 
 ---
 
 ## Syllabus
 
- * Week 1 (Jan 22): Introduction, syllabus, examples, and some basics
- * Week 2 (Jan 29): Operational palette, structured python, and files
- * Week 3 (Feb 5): Quantitative plots, plot components
- * Week 4 (Feb 12): Histograms and distributions
- * Week 5 (Feb 19): R and ggplot
- * Week 6 (Feb 26): Images: color, colormaps
- * Week 7 (Mar 5): Comparisons between datasets
+ * Week 1 (Aug 29): Introduction, syllabus, examples, and some basics
+ * Week 2 (Sep 5): Operational palette, structured python, and files
+ * Week 3 (Sep 12): Quantitative plots, plot components
+ * Week 4 (Sep 19): Histograms and distributions
+ * Week 5 (Sep 26): R and ggplot
+ * Week 6 (Oct 3): Images: color, colormaps
+ * Week 7 (Oct 10): Comparisons between datasets
+
+notes:
+This is a rough syllabus!  These are many of the topics we will cover, but
+based on how the course proceeds and how folks respond, we may shorten or
+lengthen different topics.
+
+The organization here is designed to start out slow, dealing with how to
+program python for visualization, understanding how data is laid out, which
+operations we can apply to that data, and then moving on to representing data
+in different ways.
 
 ---
 
 ## Syllabus
 
- * Week 8 (Mar 12): Comparisons between different datasets
- * Week 9 (Mar 26): Network visualization
- * Week 10 (Apr 2): Principles of interactive visualization
- * Week 11 (Apr 9): Interactive visualization with Python
- * Week 12 (Apr 16): Scientific visualization
- * Week 13 (Apr 23): Advanced topics
- * Week 14 (Apr 30): Group presentations
+ * Week 8 (Oct 17): Comparisons between different datasets
+ * Week 9 (Oct 24): Network visualization
+ * Week 10 (Oct 31): Principles of interactive visualization
+ * Week 11 (Nov 7): Interactive visualization with Python
+ * Week 12 (Nov 14): Scientific visualization
+ * Week 13 (Nov 28): Advanced topics
+ * Week 14 (Dec 5): Group presentations
+ * Week 15 (Dec 12): TBD
+
+notes:
+Toward the end of class we are going to have a slightly more free-form set of
+discussion points.  Your final projects will be somewhat open-ended, requiring
+more group work and collaboration than the preceding assignments.
 
 ---
 
-# Overview - Themes
+# Class Mission
+
+Your role as a _consumer_ of visualizations should change to also include the
+perspective of a _producer_ of visualizations.
+
+notes:
+We will be discussing this as the semester goes on, but the principal outcome I
+want you to take away from this class is understanding how to transform data
+into its visual representation, and to take that understanding with you as you
+observe visualizations presented to you.
+
+By developing visualizations, you will grow to understand the choices that
+influence those visualizations, and you will bring that with you while
+consuming information visually.
+
+---
+
+# The Things I Want You To Take Away
+
+ * You should know the basics of how to manipulate data -- aggregations,
+   filterings, and other operations.
+ * I want you to know _some_ of the packages that are out there to visualize
+   data.  These will mostly be Python-based, with a couple in Javascript.
+ * You won't learn how to use dashboarding software in detail.  Instead, we
+   will talk about the different operations that go into dashboarding software.
+ * By the end of the course, you will have had the opportunity to look at and
+   build visualizations in several different domains and understand how to
+   interpret, critique and improve them.
+
+notes:
+This course *will* teach you some things about how to code, how to build
+visualizations, but we're going to focus much more on learning about how to
+construct visualizations and why we make the choices that we do.  If we choose
+one way to present data, does that convey information more readily?  Or does it
+get in the way of the underlying meaning?
+
+---
+
+## Overview - Themes and Goals
+
 1. What are the components of an effective visualization of quantitative data?
 1. What tools and ecosystems are available for visualizing data?
 1. What systems can be put in place to generate visualizations rapidly and with high-fidelity representation?
-
-
----
-
-# Overview - Goals
-
-* Students will be able to communicate information and data through visual representation
-* Students will be able to examine a visualization and understand how it can be improved upon
-* Students will have facility with the commonplace tools used for visualization, and a deeper understanding of where those tools have shortcomings
 
 ---
 
@@ -96,12 +158,36 @@ Affix to or inscribe upon your sheet of paper.
  * Hands-on, collaborative coding
  * Wrap-up
 
+You will each be assigned to a group to do collective note-taking.  The day
+before class each week, you will be notified that you will be taking notes the
+next day and you will be provided the link to a collaborative document.
+Following the lecture, your notes will be added to the course website.
+
+notes:
+This structure will likely be deviated from during the course, but in general
+we will start with lecture, take a break, then continue with collaborative or
+hands-on exercises using group coding.
+
+During the group coding, I might lead the class in some visualization in
+Python, Javascript, or something else.  During this section, I expect that
+students will *follow along* with what is going on -- typing in the specific
+commands, and maybe even trying different things as we go.  It is not meant to
+simply be a "performance" of coding, but instead an opportunity to learn.
+
 ---
 
 ## Grading
 
  * 70% Weekly assigmments in prose or code form
  * 30% Final project
+
+notes:
+Your weekly assignments will take different forms.  The first assignment will
+be exclusively prose and hand-writing, but subsequent assignments will be
+either notebook (coding) based or prose-based as well.
+
+The final project will be described later in class, but will take the form of a
+group project that touches on coding as well as visual design.
 
 ---
 
@@ -119,6 +205,16 @@ Affix to or inscribe upon your sheet of paper.
  * Plagiarism is about copying ideas.
  * Cite all code you utilize from elsewhere.
 
+notes:
+When programming, I expect that you will do things like search on the internet
+to find help with a given problem.  This is fine.
+
+But, you *must* cite where any code snippets came from.  And you *must* note if
+you are working with other people in the group!
+
+Using snippets of code is fine -- but you may not copy large-scale amounts of
+code from other work (for example, other visualizations) and pass it off as
+your own.  Always cite, and be reasonable in what you utilize.
 
 ---
 
@@ -130,9 +226,19 @@ Affix to or inscribe upon your sheet of paper.
  * Once in a while some git, and GitHub
  * Slack
 
+notes:
+You will be expected to write code in Python, and to learn the very basics of
+Javascript.  Your projects may be turned in via git.  We will also utilize
+Slack for class communication.
+
 ---
 
 ![](images/jh_arch.svg)
+
+notes:
+Jupyterhub is a software system for launching multiple independent notebooks
+that can share access to data and installed software.  Ours is administered by
+the iSchool.
 
 ---
 
@@ -142,8 +248,14 @@ Affix to or inscribe upon your sheet of paper.
  * Please store your notebooks on- and off-site
  * Submissions will be via `nbgrader`
  * Data will be available at `/home/shared/spr18-is590dv/data/`
- * Previous lectures will be in `/home/shared/spr18-is590dv/spring2018/`
+ * Previous lectures will be in `/home/shared/spr18-is590dv/fall2018/`
  * You will have access to conda, etc, but I may rebuild images to add packages.
+
+notes:
+It is possible that your JupyterHub instance may be lost -- don't store mission
+critical data there without a backup.  It should be possible to share data
+between people on the system, but I won't pretend to know the right way to do
+that.
 
 ---
 
@@ -158,29 +270,50 @@ Affix to or inscribe upon your sheet of paper.
     instructor’s inbox
  1. Grades and feedback will be posted on Moodle.
 
+notes:
+We will be using `nbgrader` for notebook grading.  This will in general allow
+you the opportunity to see *most* of the results of your grade prior to
+submission.
+
 ---
 
 ## Slack
 
- * Team is at `lis590dv-spr2018.slack.com`
+ * Team is at `lis590dv-fall2018.slack.com`
    * `#general` : General announcements
    * `#assignments` : Help with assignments
    * `#help` : General help with Python, Javascript, visualization, etc
    * `#lectures` : During lectures, post links, comments, questions here
  * Use the `@` sign appropriately: `@[person]`, `@here`, `@channel`
- * Conduct will be held to same standards as any educational venue.
  * Web client, standalone client and mobile devices can access this team.
  * At the end of the semester, the team will be discontinued.
+ * Please think carefully before direct messaging if you could ask in a public
+   forum instead.
+ * Conduct will be held to same standards as any educational venue.
+
+notes:
+Please use slack as much as you need!  You can use it to share items and
+articles with the class, to collaborate, to discuss and ask questions and get
+feedback.  However, please do behave in a professional fashion.
 
 ---
 
 ## Github
 
- * Course repo is at [UIUC-iSchool-DataViz/spring2018](https://github.com/UIUC-iSchool-DataViz/spring2018/)
- * Automatically built to [uiuc-ischool-dataviz.github.io/spring2018/](https://uiuc-ischool-dataviz.github.io/spring2018/)
+ * Course repo is at [UIUC-iSchool-DataViz/fall2018](https://github.com/UIUC-iSchool-DataViz/fall2018/)
+ * Automatically built to [uiuc-ischool-dataviz.github.io/fall2018/](https://uiuc-ischool-dataviz.github.io/fall2018/)
  * Lecture notes will be placed there, and available in your JupyterHub
-   instances in `shared/sp18-is590dv/spring2018`
+   instances in `shared/sp18-is590dv/fall2018`
  * Copy the notebooks to your directory before using them.
+ * Supplemental materials can be found at [UIUC-iSchool-DataViz/support-files](https://github.com/UIUC-iSchool-DataViz/support-files)
+
+notes:
+All the materials for this course will be stored in github, and are available
+under a very permissive license.  It is largely written in markdown and
+automatically compiled to web pages when changes are made.
+
+You are invited to clone the repo, fork and submit changes (typos, etc!), and
+to use any information in it in the future.
 
 ---
 
@@ -190,11 +323,20 @@ Affix to or inscribe upon your sheet of paper.
  * What types of data do we visualize?
  * How do we visualize?
 
+notes:
+We're going to start out at a very high-level, discussing why we choose to
+visualize versus other types of representation, what types of data, and how we
+might do it.
+
 ---
 
 # Why?
 
 (Or rather, why _wouldn't_ we visualize?)
+
+notes:
+Not everything suits itself to visualization -- and part of the reason for that
+is the necessary reductionism that visualization can require.
 
 ---
 
@@ -202,9 +344,24 @@ Affix to or inscribe upon your sheet of paper.
 src="https://www.youtube.com/embed/In72QAQJ1tY?rel=0" frameborder="0"
 allow="encrypted-media" allowfullscreen></iframe>
 
+notes:
+"There are lots of thing you can compare on a graph / Like who is the shortest
+or the tallest giraffe / You can chart how much you walk / How much that you
+laugh / There are lots of things you can compare on a graph"
+
+"But the one thing you can't chart / Is how you feel in your heart"
+
 ---
 
 <!-- .slide: data-background-image="images/fov.svg" data-background-size="contain" -->
+
+notes:
+Visual information is communicated through our eyes, where it is processed.  At
+the most basic level, we can see a range of about 210 degrees horizontally with
+one or both eyes.  The region that is covered by both ("binocular") is about
+114 degrees in extent.
+
+You can only cram so much information into the human eye.
 
 ---
 
@@ -212,9 +369,22 @@ allow="encrypted-media" allowfullscreen></iframe>
 
 By Vanessa Ezekowitz [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons
 
+notes:
+When we think about visual communication of information, we *must* think about
+how human physiology interacts with that communication.
+
+Also, fair warning: I'm not a medical doctor.
+
+This diagram shows the visual acuity of a "standard" human eye, as a function
+of angular distance from the fovea.  We have to think about this in
+*conjunction* with our field of view.
+
 ---
 
 ## I need a volunteer!
+
+notes:
+(This part is a bit of a stunt.  Sorry.)
 
 ---
 
@@ -232,48 +402,41 @@ By Vanessa Ezekowitz [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3
 | 2008-10-01 | 14549.9 |
 | 2009-01-01 | 14383.9 |
 
+notes:
+See what I mean?  It's a stunt.  You're supposed to hear these, or look at the
+numbers, and not have as clear an impression.  It also takes a lot longer.
+
 ---
 
 ![](images/fredgraph.png)
 
----
-
-| | |
-|:-|:-|
-| 2729 | |
-| 2714-2719 | (Known) |
-| 2699 | |
-| 2613 | |
-| 2583 | |
-| 2562 | |
-| 2530 | |
-| 2501 | |
-| 2490 | |
-| 2470 | |
-| 2400 | |
-| 2322-2329 | (Known) |
-
-Data from "The Stone Sky" by N.K. Jemisin
+notes:
+You might immediately notice a few things about this image, but one item that
+we will talk about as class goes on is that often visualizations can have a
+consistent style.  FRED in particular has a "branding" that is quite obvious,
+even without the logo.
 
 ---
 
-![](images/timeline1.png)
-![](images/timeline2.png)
-![](images/timeline3.png)
+# Who are you visualizing for?
 
----
+* For yourself?
+* For a peer?
+* For someone else?
 
-# Types of Viz:
-
-* Visualization for Self
-* Visualization for Peers
-* Visualization for Others
+notes:
+*Whenever* you build a visualization you need to think about the context that
+you can assume on the part of your viewer.
 
 ---
 
 # Tenet 1:
 
 "Visualizing data" is not a strict subset of "making an image."
+
+notes:
+We will approach visualization as encompassing several different stages in the
+collection, organization and representation of data.
 
 ---
 
