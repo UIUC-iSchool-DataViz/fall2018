@@ -178,7 +178,7 @@ simply be a "performance" of coding, but instead an opportunity to learn.
 
 ## Grading
 
- * 70% Weekly assigmments in prose or code form
+ * 70% Weekly assignments in prose or code form
  * 30% Final project
 
 notes:
