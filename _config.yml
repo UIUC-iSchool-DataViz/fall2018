@@ -26,8 +26,11 @@ branch: gh-pages
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 theme: jekyll-theme-dinky
+#remote_theme: dbtek/dbyll
+#remote_theme: "renyuanz/leonids"
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
