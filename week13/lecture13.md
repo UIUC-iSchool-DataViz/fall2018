@@ -9,7 +9,7 @@ include_vega: true
 # Data Visualization
 <div style="height: 6.0em;"></div>
 ## Matthew Turk
-## Spring 2018
+## Fall 2018
 ## Lecture 13
 
 ---
