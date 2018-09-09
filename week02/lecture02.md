@@ -7,7 +7,7 @@ layout: lecture
 # Data Visualization
 <div style="height: 6.0em;"></div>
 ## Matthew Turk
-## Spring 2018
+## Fall 2018
 ## Lecture 2
 
 ---
@@ -321,7 +321,7 @@ You have a palette of operations to apply.
 ### Equality
 
 ```
-value == “hello”
+value == "hello"
 value == 10
 ```
 
