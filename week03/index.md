@@ -1,5 +1,6 @@
 ---
 layout: week
+visible: true
 ---
 
 # Week 3 - Data Operations and Elements of a Visualization

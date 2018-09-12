@@ -1,7 +1,6 @@
 ---
 title: Lecture 3
 layout: lecture
-visible: true
 ---
 <!-- .slide: class="titleslide" -->
 
