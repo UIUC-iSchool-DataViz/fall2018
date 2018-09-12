@@ -251,6 +251,16 @@ fallback fonts available to the rendering engine can be used.
 
 ---
 
+<img src="images/font_A.png">
+
+<img src="images/font_O.png">
+
+<img src="images/font_T.png">
+
+<img src="images/font_X.png">
+
+---
+
 ## Discussion Time
 
 In your groups: can you come up with a few situations in which a raster
