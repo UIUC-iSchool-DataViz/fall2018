@@ -13,6 +13,16 @@ visible: true
 
 ---
 
+## Warm-Up Activity
+
+1. What is the visualization trying to show?
+1. What are its methods?
+1. What are the strengths / weaknesses?
+
+https://projects.fivethirtyeight.com/mortality-rates-united-states/
+
+---
+
 ## Today's Topics
 
  * How does drawing work?
