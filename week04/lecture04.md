@@ -303,7 +303,11 @@ Group discussion:
 
 ## Histograms and Binning
 
-Write a function that takes a set of values, a series of bin "edges," and returns to you the integer IDs of the bins that each belongs to.
+Group work:
+
+Write a function -- in plain language at first, and then in python -- that
+takes a set of values, a series of bin "edges," and returns to you the integer
+IDs of the bins that each belongs to.
 
 ---
 
