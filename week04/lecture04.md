@@ -1,6 +1,7 @@
 ---
 title: Lecture 4
 layout: lecture
+visible: true
 ---
 <!-- .slide: class="titleslide" -->
 
@@ -18,13 +19,13 @@ layout: lecture
 1. What are its methods?
 1. What are the strengths / weaknesses?
 
-https://www.axios.com/vitals-2486505861.html
+https://www.nytimes.com/interactive/2018/09/19/upshot/facebook-county-friendships.html
 
 ---
 
 ## Today's Topics
 
- * Elements of a Visualization
+ * Data Types in a Visualization
  * Distributions
 
 ---
@@ -158,7 +159,9 @@ allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 http://adsabs.harvard.edu/abs/2013ApJ...763...38S 
 
-(This plot might be a bit too busy.)
+([This
+plot](http://iopscience.iop.org/article/10.1088/0004-637X/763/1/38/meta#apj455166f4)
+might be a bit too busy.)
 
 <!-- .slide: data-background-image="images/skory_et_al.png" data-background-size="auto 75%" data-background-position="right 20% bottom 50%" -->
 
@@ -188,7 +191,7 @@ additional operations.
 Given a point or set of points, how do we make them into a "continuous"
 distribution?
 
-<!-- .slide: data-background-image="images/binning_1.svg" data-background-size="75% auto" -->
+<!-- .slide: data-background-image="images/binning_1.svg" data-background-size="75% auto" data-background-position="bottom 30% center"-->
 
 ---
 
@@ -197,7 +200,7 @@ distribution?
 Given a point or set of points, how do we make them into a "continuous"
 distribution?
 
-<!-- .slide: data-background-image="images/binning_2.svg" data-background-size="75% auto" -->
+<!-- .slide: data-background-image="images/binning_2.svg" data-background-size="75% auto" data-background-position="bottom 30% center" -->
 
 ---
 
@@ -212,7 +215,7 @@ Uniform-width bins allow us to compute:
 bin_id = floor( (value - left_edge ) / bin_width)
 ```
 
-<!-- .slide: data-background-image="images/binning_2.svg" data-background-size="75% auto" -->
+<!-- .slide: data-background-image="images/binning_2.svg" data-background-size="75% auto" data-background-position="bottom 30% center" -->
 
 ---
 ## Distributions
@@ -222,7 +225,7 @@ distribution?
 
 Non-uniform bins require searching.
 
-<!-- .slide: data-background-image="images/binning_3.svg" data-background-size="75% auto" -->
+<!-- .slide: data-background-image="images/binning_3.svg" data-background-size="75% auto" data-background-position="bottom 30% center" -->
 
 ---
 
@@ -241,11 +244,9 @@ Non-uniform bins require searching.
 
 Useful for describing total quantity measured.
 
-* Inches of rain.
-* Total time of recorded UFO sitings in the area.
-* How many votes were cast?
-
-<!-- .slide: data-background-image="../week03/images/circles_grid.svg" data-background-size="auto 75%" data-background-position="right 20% bottom 50%"-->
+ * Inches of rain.
+ * Total time of recorded UFO sitings in the area.
+ * How many votes were cast?
 
 ---
 
@@ -270,3 +271,54 @@ Useful for describing mean, but not strict arithmetic mean.
   experience in the election?
 
 ---
+
+## Scales and Scaling
+
+Displaying a quantity requires assigning to it a given representation.
+A common mechanism for doing this is to vary the color of a particular region
+or set of display units with respect to the quantity expressed in those units.
+
+In mathematical notation, we first "normalize" our data value by assigning to a
+range:
+
+$g(v) \rightarrow v' \in [0, 1]$
+
+and then, given a color mapping function, assign to this a given color:
+
+$f(v') \rightarrow (R, G, B)$
+
+---
+
+## Scales and Scaling
+
+Group discussion:
+
+  * How is this similar to or different from our discussions of "binning" and
+    histogramming?
+  * What are some functions we can use for $g(v)$?
+  * What are some considerations we need to take into account for variable
+    bins?
+
+---
+
+## Histograms and Binning
+
+Write a function that takes a set of values, a series of bin "edges," and returns to you the integer IDs of the bins that each belongs to.
+
+---
+
+## Assignment 2
+
+Using one of the tools that we have discussed (matplotlib or vega-lite),
+construct a visualization of the Illinois Building Inventory that communicates
+the following information:
+
+ * Relationship between the year acquired and the year constructed
+ * Total square footage as a function of congressional district
+ * Average square footage per floor as a function of congressional district
+ * Square footage for the five most common departments as a function of year
+
+Each component will be worth 5 points and *must* be a completely communicative
+visualization -- including labels and a one paragraph writeup of successes and
+shortcomings in your approach.  Submit a notebook or a set of JSON gists to
+Moodle.  All source code must be in these files.
