@@ -18,7 +18,7 @@ layout: lecture
 1. What are its methods?
 1. What are the strengths / weaknesses?
 
-http://www.vijayp.ca/movies/new_page.html
+http://old.vijayp.ca/blog/2012/06/colours-in-movie-posters-since-1914/
 
 ---
 
