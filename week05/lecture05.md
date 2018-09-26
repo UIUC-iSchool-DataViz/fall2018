@@ -267,13 +267,40 @@ $ v' = (v - v_0)/(v_1 - v_0) $
 
 ---
 
-## Import Statement
+## Colormaps: Loading Data
 
- * The `import` statement loads and makes accessible
- * Python will search paths to find the script to import
-   * `sys.path` is a list of these
-   * Current  directory may or may not be included
- * Modules are reusable collections of functions and scripts
- * The presence of an `__init__.py` file indicates something is a package
- * We will be building a module
+Today we will explore images and colors, and how our choice of colormaps
+affects our perception of them.
+
+You will need to load data into your notebook, which you can do using these
+commands:
+
+```
+import numpy as np
+import h5py
+
+fn1 = "/home/shared/sp18-is590dv/data/michigan_lld/michigan_lld.flt"
+michigan = np.fromfile(fn1, dtype='f4').reshape((5365, 4201))
+
+fn2 = "/home/shared/sp18-is590dv/data/single_dicom.h5"
+with h5py.File(fn2) as f:
+    scan = f["/scan"][:]
+```
+
+---
+
+## Colormaps: Prep Work
+
+We will now utilize the `plt.imshow` command to show these images, and discuss
+how to modify the transformation of the data beforehand.
+
+---
+
+## Colormaps
+
+With the Michigan data and the scan data, evaluate:
+
+ * How to choose a colormap
+ * What are some good "bounds" for that colormap
+ * How do we set our transform?
 
