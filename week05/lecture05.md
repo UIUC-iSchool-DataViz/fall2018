@@ -135,6 +135,19 @@ http://enchroma.com/test/instructions/
 
 ---
 
+## "Naming" Colors
+
+ * RGB triplets, often expressed in hexadecimel ("#00FFAA", etc)
+ * Color spaces 
+   * HSV (Hue, saturation, value)
+   * [CIELAB](https://en.wikipedia.org/wiki/CIELAB_color_space)
+   * sRGB, Adobe sRGB
+ * List of colors by name
+   * [Web](https://www.w3schools.com/colors/colors_names.asp)
+   * [matplotlib](https://matplotlib.org/2.0.2/examples/color/named_colors.html)
+
+---
+
 ## Color Palettes
 
  * Colorbrewer Categories
@@ -303,4 +316,3 @@ With the Michigan data and the scan data, evaluate:
  * How to choose a colormap
  * What are some good "bounds" for that colormap
  * How do we set our transform?
-
