@@ -243,15 +243,6 @@ m.name = 'Nerf Herder'
 
 ---
 
-## Trying with Matplotlib
-
-We can now try this with matplotlib.  Let's use this to take our clock example
-from last time and set up widgets.
-
-We want to have an hour, a minute, and a button that updates.
-
----
-
 ## bqplot
 
 Now that we've learned a bit about widgets, we can start to dig into `bqplot`.
