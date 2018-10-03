@@ -319,6 +319,10 @@ https://vega.github.io/editor/
    1. Uses the UFO datasets
    2. Allows changing the x and y fields on a scatter plot from the UFO dataset
    3. Displays tooltips when hovering over individual items
+ * Build a second widget that displays binned, aggregate values where you can change:
+   1. The field to "bin"
+   2. The method of aggregation (sum, mean, min, max, count)
+   3. The number of bins
  * This will be collected via nbgrader, and we will work in-class next week on
    expanding it.
 
