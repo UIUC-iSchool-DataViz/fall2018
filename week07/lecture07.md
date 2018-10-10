@@ -223,3 +223,23 @@ Your assignment from last week was:
  * Select based on states (do not use map marks yet)
  * Manually create "bins" for aggregation
  * Use different scales for dates, times, locations
+
+---
+
+## Assignment 4
+
+ * Build a dashboard for the buildings data.
+ * Left component:
+    * Grid heat map
+    * Rows are congressional district
+    * Columns are the governmental department
+    * Values are sum of total square footage for that set of criteria
+ * Right component:
+    * line plot
+    * x is the year
+    * y is total square footage *acquired* that year
+ * These two should be *linked* so that you can select cells and that will
+   update the square footage plot.
+ * Things to think about:
+    * Can you keep the x and y ranges static on the line plot?
+    * Can you change the style?
