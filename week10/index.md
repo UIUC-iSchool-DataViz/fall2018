@@ -2,7 +2,7 @@
 layout: week
 ---
 
-# Week 10 - Maps, Vega and Idyll
+# Week 10 - Iterative Design, Idyll
 
-This week we talked about different map projections, some basics of tools like
-Vega and Idyll, and we received a new assignment.
+This week we talked a bit about iterative design, then the final project, and
+ended with discussion about the Idyll framework.
