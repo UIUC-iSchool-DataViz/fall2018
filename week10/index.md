@@ -1,5 +1,6 @@
 ---
 layout: week
+visible: true
 ---
 
 # Week 10 - Iterative Design, Idyll
