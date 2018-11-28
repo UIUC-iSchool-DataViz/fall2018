@@ -19,17 +19,15 @@ include_vega: true
  1. What is the visualization trying to show?
  1. What are its methods?
  1. What are the strengths / weaknesses?
- 1. Would you know how to make something like this?
 
-http://biologylabs.utah.edu/farmer/index_dinosaur.html
+http://scienceofhiv.org/
 
 ---
 
 ## Today
 
  * Final Project Update
- * Review of Tools
- * Building Stuff
+ * Really big data
  * Data Scavenger Hunt
 
 ---
@@ -43,83 +41,37 @@ http://biologylabs.utah.edu/farmer/index_dinosaur.html
 
 ---
 
-## Tools We've Used
+## Really Big Data
 
-We've learned a number of different tools in class.
+How do we deal with data that is too large to fit into memory?
 
-* Numpy
-* Pandas
-* Matplotlib
-* Seaborn
-* Bqplot
-* IPython widgets
-* Cartopy
-* Vega
-* Vega-lite
-* R
-* Idyll
-
-Each of these has strengths and weaknesses.
+ * Can we cycle our operations?
+ * Can we use tools to cycle operations?
 
 ---
 
-## Questions To Ask
+## Operations
 
-* Do I know anything about the data?
-  * What form will it take?
-  * What tale do I think it will tell?
-* How should I present this data?
-  * Can the data be reconstructed from my visualization?
-  * What technical issues impede clarity?
-  * Am I providing visual context?
-* How will this visualization be received?
-  * What implicit or explicit assumptions am I making about the observer?
-  * What questions will they ask of it?
-  * Do I have empathy for my viewer?
+Some operations we can manually cycle through, storing only reductions in
+memory rather than the full dataset.
 
----
+Clear candidates:
 
-## Building Stuff
+ * Mean
+ * Extrema
+ * Histograms and "binning"
 
-Let's return to that visualization.
+Is this the same as incremental updates to a dataset?
 
-Do you know how to build something like that?
-
-What tools could you use?
-
-Where would you put it?
+(What about the median?)
 
 ---
 
-## Publishing Pages
+## Tools
 
-GitHub pages is a simple, straightforward way to publish websites.
-
- * Static-site generation using Jekyll
- * Manual HTML building
- * Integration with other systems (Idyll)
-
----
-
-## Publishing Notebooks
-
-Jupyter Notebooks can be published online.  The simplest way:
-
- * Commit them to a github repository
- * View them using nbviewer.jupyter.org
-
-Widget state can be saved in many cases.
-
-http://ipywidgets.readthedocs.io/en/latest/embedding.html
-
----
-
-## Your First Github Page
-
- * We will use Jekyll to build a github page
- * Create the repository `[username].github.io`
- * Clone this repository.
- * Let's talk about the branches `gh-pages` and `master`
+ * yt
+ * dask
+ * domain-specific tools
 
 ---
 
@@ -132,7 +84,7 @@ http://ipywidgets.readthedocs.io/en/latest/embedding.html
    * Develop a visualization
    * Keep track of iterations on the visualization
  * Two datasets:
-   * Names database
    * WDI
+   * Names
  * Thirty minutes for each dataset, ten minutes of presentation after
 

@@ -1,8 +1,9 @@
 ---
 layout: week
+visible: true
 ---
 
-# Week 13 - A Few Other Tools
+# Week 13 - Scavenger Hunt and Big Data
 
-This week we covered a handful of other tools that we've only briefly talked
-about as well as participated in a "scavenger hunt" for data.
+This week we briefly talked about very large data and then we had a "scavenger
+hunt."
